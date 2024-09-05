@@ -21,7 +21,7 @@ class TestDivision(unittest.TestCase):
 
     def testDivision2(self):
         valor_esperado = "La división no es exacta. \n" \
-                         "Cociente: 16\n" \
+                         "Cociente: 4\n" \
                          "Residuo: 1"
         valor_actual = evaluar(17, 4)
         self.assertEqual(valor_esperado, valor_actual)

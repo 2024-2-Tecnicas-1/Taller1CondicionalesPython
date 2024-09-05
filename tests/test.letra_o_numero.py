@@ -9,7 +9,7 @@ print('root_path:')
 print(root_path)
 sys.path.append(str(root_path))
 
-from src.annos_bisiestos import evaluar
+from src.letra_o_numero import evaluar
 
 class TestLetraONumero(unittest.TestCase):
     def test_es_numero(self):

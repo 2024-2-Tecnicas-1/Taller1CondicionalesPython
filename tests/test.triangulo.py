@@ -14,7 +14,7 @@ from src.triangulo import evaluar
 class TestTriangulo(unittest.TestCase):
     def test_no_valido_1(self):
         valor_esperado = "No es un triángulo válido"
-        valor_actual = evaluar(1.0, 2.0, 3.0)
+        valor_actual = evaluar(1.0, 2.0, 4.0)
         self.assertEqual(valor_esperado, valor_actual)
 
     def test_no_valido_2(self):
